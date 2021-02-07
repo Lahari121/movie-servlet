@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form action="add" method="post">
+		<style>
+body {
+	background-image: url("v1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+</style>
+		<h1 style="text-align: center;">V</h1>
+		<p style="text-align: center; font-size: 200%;">Book your seat</p>
+		<table>
+			<tr>
+				<th><h2>Sno:</h2></th>
+				<td><input type="text" name="sno" /><br /></td>
+			</tr>
+			<tr>
+				<th><h2>Name:</h2></th>
+				<td><input type="text" name="name" /><br /></td>
+			</tr>
+			<tr>
+				<th>Movie Name:</th>
+				<td><select name="moviename">
+						<option value="vakeelsaab">Vakeel saab</option>
+						<option value="uppena">Uppean</option>
+						<option value="v">V</option>
+						<option value="lovestory">Love story</option>
+				</select> <input type="submit" value="Submit"></td>
+			</tr>
+
+			<tr>
+				<th><h2>City Name:</h2></th>
+				<td><select name="cityname">
+						<option value="hyderabad">Hyderabad</option>
+						<option value="vishakapatam">Vishakapatam></option>
+						<option value="vijayawada">Vijayawada</option>
+						<option value="rajhumundry">Rajhumundry</option>
+						<option value="bhimavaram">Bhimavaram</option>
+				</select></td>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+			<tr>
+				<th><h2>Theater:</h2></th>
+				<td><select name="theater">
+						<option value="imax">Imax</option>
+						<option value="avg">Avg</option>
+						<option value="kanakadurga">Kanakadurga</option>
+						<option value="nataraj">Nataraj</option>
+						<option value="pvr">PVP</option>
+						<option value="inorbit">Inorbit</option>
+						<option value="pratyusha">Pratyusha</option>
+						<option value="pvr">PVR</option>
+						<option value="carnival">Carnival</option>
+						<option value="asian">Asian</option>
+						<option value="inox">INOX</option>
+				</select></td>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+			<tr>
+				<th><h2>Mobile:</h2></th>
+				<td><select>
+						<option>+91</option>
+						<option>+491</option>
+						<option>+350</option>
+				</select></td>
+				<td><input type="text" name="phonenumber"></td>
+			</tr>
+			<tr>
+				<th><h2>Date:</h2></th>
+				<td><input type="date" name="moviedate"></td>
+			</tr>
+			<tr>
+				<th><h2>Time:</h2></th>
+				<td><input type="time" name="movietime"></td>
+			</tr>
+			<tr>
+				<th><h2>seat number:</h2></th>
+				<td><input type="radio" name="seatno" value="A">A
+					series<br> <input type="checkbox" name="seatno1" value="1">
+					<input type="checkbox" name="seatno2" value="2">2 <input
+					type="checkbox" name="seatno3" value="3">3 <input
+					type="checkbox" name="seatno4" value="4">4 <input
+					type="checkbox" name="seatno5" value="5">5 <input
+					type="checkbox" name="seatno6" value="6">6<br> <input
+					type="radio" name="seatno" value="B">B series<br> <input
+					type="checkbox" name="seatno1" value="1">1 <input
+					type="checkbox" name="seatno2" value="2">2 <input
+					type="checkbox" name="seatno3" value="3">3 <input
+					type="checkbox" name="seatno4" value="4">4 <input
+					type="checkbox" name="seatno5" value="5">5 <input
+					type="checkbox" name="seatno6" value="6">6<br> <input
+					type="radio" name="seatno" value="C">C series<br> <input
+					type="checkbox" name="seatno1" value="1">1 <input
+					type="checkbox" name="seatno2" value="2">2 <input
+					type="checkbox" name="seatno3" value="3">3 <input
+					type="checkbox" name="seatno4" value="4">4 <input
+					type="checkbox" name="seatno5" value="5">5 <input
+					type="checkbox" name="seatno6" value="6">6<br> <input
+					type="radio" name="seatno" value="D">D series<br> <input
+					type="checkbox" name="seatno1" value="1">1 <input
+					type="checkbox" name="seatno2" value="2">2 <input
+					type="checkbox" name="seatno3" value="3">3 <input
+					type="checkbox" name="seatno4" value="4">4 <input
+					type="checkbox" name="seatno5" value="5">5 <input
+					type="checkbox" name="seatno6" value="6">6<br> <input
+					type="radio" name="seatno" value="E">E series<br> <input
+					type="checkbox" name="seatno1" value="1">1 <input
+					type="checkbox" name="seatno2" value="2">2 <input
+					type="checkbox" name="seatno3" value="3">3 <input
+					type="checkbox" name="seatno4" value="4">4 <input
+					type="checkbox" name="seatno5" value="5">5 <input
+					type="checkbox" name="seatno6" value="6">6<br> <input
+					type="radio" name="seatno" value="F">F series<br> <input
+					type="checkbox" name="seatno1" value="1">1 <input
+					type="checkbox" name="seatno2" value="2">2 <input
+					type="checkbox" name="seatno3" value="3">3 <input
+					type="checkbox" name="seatno4" value="4">4 <input
+					type="checkbox" name="seatno5" value="5">5 <input
+					type="checkbox" name="seatno6" value="6">6<br></td>
+			</tr>
+			<tr>
+				<th><h2>Payment mode:</h2></th>
+				<td><input type="radio" name="payment" value="CREDIT CARD">CREDIT
+					CARD<br> <input type="radio" name="payment" value="DEBIT CARD">DEBIT
+					CARD<br> <input type="radio" name="payment" value="GOOGLE PAY">GOOGLE
+					PAY<br></td>
+			</tr>
+			<tr>
+		</table>
+		<input type="submit" style="width: 100px; height: 70px"
+			value="bookmyticket" name="s1">
+</body>
+</html>
